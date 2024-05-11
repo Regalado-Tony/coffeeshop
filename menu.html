@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NuCoffee</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
+<link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
+<link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
+    <!-- Stylesheet Inline -->
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 75px;
+            color: #D96B43;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Navbar Section -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">NuCoffee</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><i class="fas fa-info-circle"></i> About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#menu"><i class="fas fa-coffee"></i> Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h1>Menu</h1>
+<!-- Menu -->
+<container>
+    <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="coffeepics/hotcoffee.png" class="card-img-top" alt="...">
+              <h5 class="card-title">Hot Coffee</h5>
+              <a href="#" class="btn">$3.99</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="coffeepics/coldcoffee.png" class="card-img-top" alt="...">
+              <h5 class="card-title">Iced Coffee</h5>
+              <a href="#" class="btn">$2.99</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="coffeepics/icedtea.png" class="card-img-top" alt="...">
+              <h5 class="card-title">Iced Tea</h5>
+              <a href="#" class="btn">$1.99</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="coffeepics/muffin.png" class="card-img-top" alt="...">
+              <h5 class="card-title">Blueberry Muffin</h5>
+              <a href="#" class="btn">$3.99</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</container>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>    

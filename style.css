@@ -1,0 +1,64 @@
+.btn-primary {
+    background-color: #000000; /* Coffee themed color */
+    border-color: #000000;
+}
+
+.btn-primary:hover {
+    background-color: #A67879;
+    border-color: #A67879;
+}
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+
+.overlay-button {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, 500px); /* Align the center of the button with the center of the container */
+    /* Styling for the button */
+    padding: 0.5em 1em;
+    color: white;
+    font-weight: bold;
+}
+
+.img-fluid {
+    height: 100vh; /* 100% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+    background-image: url('coffeepics/pngtree-coffee-hot-drink-background-picture-image_2446768.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    position: fixed; /* Optional: to make it stay in place on scrolling */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Keep it in the background */
+}
+.card-img-top {
+    width: 350px;
+    height: 350px;
+}
+
+.btn {
+    border: solid 1px;
+    background-color: hsl(152, 84%, 27%);
+    opacity: .8;
+    color: white;
+}
+
+.card {
+    background-color: #F2E2C4;
+}
+body {
+    background-color: #f2b988;
+}
+#catcher {
+    font-size: 42px;
+    font-style: oblique;
+    position: relative;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, 220px); 
+}
